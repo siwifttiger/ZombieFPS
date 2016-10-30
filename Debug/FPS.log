@@ -1,0 +1,104 @@
+﻿  main.cpp
+zombie.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+camera.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+item.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+text.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+weapon.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+weapon.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+zombie.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+camera.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+item.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+knife.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+text.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+game.obj : error LNK2019: unresolved external symbol __imp__glBindTexture@8 referenced in function "private: unsigned int __thiscall Game::loadTexture(char const *)" (?loadTexture@Game@@AAEIPBD@Z)
+menu.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+objloader.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+skybox.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+game.obj : error LNK2019: unresolved external symbol __imp__glBlendFunc@8 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+game.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "public: void __thiscall Game::show(void)" (?show@Game@@QAEXXZ)
+menu.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+game.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+game.obj : error LNK2019: unresolved external symbol __imp__glClearDepth@8 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+game.obj : error LNK2019: unresolved external symbol __imp__glColorMask@16 referenced in function "public: void __thiscall Game::update(void)" (?update@Game@@QAEXXZ)
+game.obj : error LNK2019: unresolved external symbol __imp__glDeleteTextures@8 referenced in function "public: __thiscall Game::~Game(void)" (??1Game@@QAE@XZ)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glDeleteTextures@8
+skybox.obj : error LNK2001: unresolved external symbol __imp__glDeleteTextures@8
+pengine.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+skybox.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+text.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+zombie.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+game.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+item.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+menu.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+objloader.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+game.obj : error LNK2019: unresolved external symbol __imp__glGenTextures@8 referenced in function "private: unsigned int __thiscall Game::loadTexture(char const *)" (?loadTexture@Game@@AAEIPBD@Z)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glGenTextures@8
+skybox.obj : error LNK2001: unresolved external symbol __imp__glGenTextures@8
+game.obj : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+menu.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+game.obj : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+game.obj : error LNK2019: unresolved external symbol __imp__glTexImage2D@36 referenced in function "private: unsigned int __thiscall Game::loadTexture(char const *)" (?loadTexture@Game@@AAEIPBD@Z)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glTexImage2D@36
+skybox.obj : error LNK2001: unresolved external symbol __imp__glTexImage2D@36
+game.obj : error LNK2019: unresolved external symbol __imp__glTexParameteri@12 referenced in function "private: unsigned int __thiscall Game::loadTexture(char const *)" (?loadTexture@Game@@AAEIPBD@Z)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glTexParameteri@12
+skybox.obj : error LNK2001: unresolved external symbol __imp__glTexParameteri@12
+game.obj : error LNK2019: unresolved external symbol _gluPerspective@32 referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+weapon.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+zombie.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+item.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+knife.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+level.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+text.obj : error LNK2001: unresolved external symbol __imp__glCallList@4
+skybox.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+text.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+zombie.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+item.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+menu.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+objloader.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+pengine.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+item.obj : error LNK2019: unresolved external symbol __imp__glPopMatrix@0 referenced in function "public: void __thiscall item::show(void)" (?show@item@@QAEXXZ)
+text.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+weapon.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+zombie.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+item.obj : error LNK2019: unresolved external symbol __imp__glPushMatrix@0 referenced in function "public: void __thiscall item::show(void)" (?show@item@@QAEXXZ)
+text.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+weapon.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+zombie.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+item.obj : error LNK2019: unresolved external symbol __imp__glScalef@12 referenced in function "public: void __thiscall item::show(void)" (?show@item@@QAEXXZ)
+text.obj : error LNK2001: unresolved external symbol __imp__glScalef@12
+zombie.obj : error LNK2001: unresolved external symbol __imp__glScalef@12
+menu.obj : error LNK2019: unresolved external symbol __imp__glBegin@4 referenced in function "public: int __thiscall menu::run(void)" (?run@menu@@QAEHXZ)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+pengine.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+skybox.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+text.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+menu.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+objloader.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+pengine.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+skybox.obj : error LNK2001: unresolved external symbol __imp__glColor3f@12
+menu.obj : error LNK2019: unresolved external symbol __imp__glEnd@0 referenced in function "public: int __thiscall menu::run(void)" (?run@menu@@QAEHXZ)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+pengine.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+skybox.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+menu.obj : error LNK2019: unresolved external symbol __imp__glIsEnabled@4 referenced in function "public: int __thiscall menu::run(void)" (?run@menu@@QAEHXZ)
+pengine.obj : error LNK2001: unresolved external symbol __imp__glIsEnabled@4
+skybox.obj : error LNK2001: unresolved external symbol __imp__glIsEnabled@4
+text.obj : error LNK2001: unresolved external symbol __imp__glIsEnabled@4
+menu.obj : error LNK2019: unresolved external symbol __imp__glTexCoord2f@8 referenced in function "public: int __thiscall menu::run(void)" (?run@menu@@QAEHXZ)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+skybox.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+menu.obj : error LNK2019: unresolved external symbol __imp__glVertex3f@12 referenced in function "public: int __thiscall menu::run(void)" (?run@menu@@QAEHXZ)
+objloader.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+pengine.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+skybox.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+objloader.obj : error LNK2019: unresolved external symbol __imp__glDeleteLists@8 referenced in function "public: __thiscall Objloader::~Objloader(void)" (??1Objloader@@QAE@XZ)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glEndList@0 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glGenLists@4 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glMaterialf@12 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glMaterialfv@12 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glNewList@8 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glNormal3f@12 referenced in function "public: int __thiscall Objloader::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class CollisionPlane,class std::allocator<class CollisionPlane> > *)" (?load@Objloader@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV?$vector@VCollisionPlane@@V?$allocator@VCollisionPlane@@@std@@@3@@Z)
+objloader.obj : error LNK2019: unresolved external symbol __imp__glTexEnvi@12 referenced in function "private: unsigned int __thiscall Objloader::loadTexture(char const *)" (?loadTexture@Objloader@@AAEIPBD@Z)
+pengine.obj : error LNK2019: unresolved external symbol __imp__glColor4f@16 referenced in function "public: void __thiscall particleSystem::refresh(void)" (?refresh@particleSystem@@QAEXXZ)
+E:\visual studio 2015\Projects\FPS\Debug\FPS.exe : fatal error LNK1120: 36 unresolved externals
